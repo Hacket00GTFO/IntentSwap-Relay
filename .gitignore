@@ -1,0 +1,25 @@
+# Rust
+backend/target/
+
+# Node
+frontend/node_modules/
+frontend/dist/
+frontend/*.tsbuildinfo
+
+# Foundry
+contracts/out/
+contracts/cache/
+contracts/broadcast/
+contracts/lib/
+
+# Env
+.env
+.env.*
+!.env.example
+
+# Docker build artifacts
+contracts/lib/
+shared-data/
+
+# Logs
+*.log
